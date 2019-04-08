@@ -26,4 +26,5 @@ Nome do DataBase configurado no application.properties: starwarsDB
 
 O Consumo da API pública do Star Wars foi praticado a cada vez que há uma interação de cadastro ou consulta de um planeta, de forma que a quantidade de aparições em filmes não é persistida no banco somente é apresentada ao usuário, mantendo sempre uma informação atualizada
 
-/CleomirJunior/B2WCleomir/blob/master/docs/adicionar_planeta.png
+
+<img src="/CleomirJunior/B2WCleomir/blob/master/docs/adicionar_planeta.png" alt="Teste" style="max-width:100%;">
