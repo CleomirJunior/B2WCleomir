@@ -1,3 +1,5 @@
+#API REST (Teste B2W)
+
 Acessos:
 - Adicionar um planeta (com nome, clima e terreno) - POST
 	URI:  http://localhost:8080/api/planetas
@@ -26,5 +28,7 @@ Nome do DataBase configurado no application.properties: starwarsDB
 
 O Consumo da API pública do Star Wars foi praticado a cada vez que há uma interação de cadastro ou consulta de um planeta, de forma que a quantidade de aparições em filmes não é persistida no banco somente é apresentada ao usuário, mantendo sempre uma informação atualizada
 
+
+#Exemplo de Teste
 
 <img src="/docs/adicionar_planeta.PNG" alt="Teste" style="max-width:100%;">
