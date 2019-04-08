@@ -31,4 +31,7 @@ O Consumo da API pública do Star Wars foi praticado a cada vez que há uma inte
 
 <h2>Exemplo de Teste</h2>
 
+
+- Adicionar um planeta (com nome, clima e terreno) - POST
+
 <img src="/docs/adicionar_planeta.PNG" alt="Teste" style="max-width:100%;">
