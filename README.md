@@ -36,34 +36,34 @@ O Consumo da API pública do Star Wars foi praticado a cada vez que há uma inte
 URI Utilizada: http://localhost:8080/api/planetas
 
 <img src="/docs/adicionar_planeta.PNG" alt="Teste" style="max-width:100%;">
-
-
-
+<p>
+<p>
+<p>
 
 - Listar planetas - GET
 	URI Utilizada: http://localhost:8080/api/planetas
 
 <img src="/docs/listar-planetas.PNG" alt="Teste" style="max-width:100%;">
-
-
-
+<p>
+<p>
+<p>
 
 - Buscar por nome - GET
 	URI Utilizada: http://localhost:8080/api/planetas/nome/Yavin IV
 	
 	<img src="/docs/buscar-nome.PNG" alt="Teste" style="max-width:100%;">
-	
-	
-	
+<p>	
+<p>	
+<p>	
 
 - Buscar por ID - GET
 	URI Utilizada: http://localhost:8080/api/planetas/5c9aa4939d50481fe4c0120e
 	
 	<img src="/docs/bucar-id.PNG" alt="Teste" style="max-width:100%;">
-	
-	
-	
+<p>	
+<p>	
+<p>	
 
 - Remover planeta - DELETE
-URI Utilizada: http://localhost:8080/api/planetas/5c9aa3979d50481fe4c0120c
-<img src="/docs/remover-planeta.PNG" alt="Teste" style="max-width:100%;">
+	URI Utilizada: http://localhost:8080/api/planetas/5c9aa3979d50481fe4c0120c
+	<img src="/docs/remover-planeta.PNG" alt="Teste" style="max-width:100%;">
