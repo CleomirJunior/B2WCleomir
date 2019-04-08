@@ -35,3 +35,22 @@ O Consumo da API pública do Star Wars foi praticado a cada vez que há uma inte
 - Adicionar um planeta (com nome, clima e terreno) - POST
 
 <img src="/docs/adicionar_planeta.PNG" alt="Teste" style="max-width:100%;">
+
+- Listar planetas - GET
+	URI: http://localhost:8080/api/planetas
+
+<img src="/docs/listar-planetas.PNG" alt="Teste" style="max-width:100%;">
+
+- Buscar por nome - GET
+	URI: http://localhost:8080/api/planetas/nome/{nome}
+	
+	<img src="/docs/buscar-nome.PNG" alt="Teste" style="max-width:100%;">
+
+- Buscar por ID - GET
+	URI: http://localhost:8080/api/planetas/{id}
+	
+	<img src="/docs/bucar-id.PNG" alt="Teste" style="max-width:100%;">
+
+- Remover planeta - DELETE
+
+<img src="/docs/remover-planeta.PNG" alt="Teste" style="max-width:100%;">
