@@ -37,7 +37,7 @@ URI Utilizada: http://localhost:8080/api/planetas
 
 <img src="/docs/adicionar_planeta.PNG" alt="Teste" style="max-width:100%;">
 <br/>
-<br/>
+<hr/>
 <br/>
 
 - Listar planetas - GET
