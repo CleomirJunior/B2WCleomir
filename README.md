@@ -73,7 +73,7 @@ URI Utilizada: http://localhost:8080/api/planetas
 <br/>	
 <br/>	
 
-- Remover planeta
-        Método HTTP: DELETE
-	URI Utilizada: http://localhost:8080/api/planetas/5c9aa3979d50481fe4c0120c
+- Remover planeta<br/>
+        Método HTTP: DELETE<br/>
+	URI Utilizada: http://localhost:8080/api/planetas/5c9aa3979d50481fe4c0120c<br/>
 	<img src="/docs/remover-planeta.PNG" alt="Teste" style="max-width:100%;">
