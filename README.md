@@ -25,3 +25,14 @@ Foram mantidas as configurações de acordo com o padrão do MongoDB.
 Nome do DataBase configurado no application.properties: starwarsDB
 
 O Consumo da API pública do Star Wars foi praticado a cada vez que há uma interação de cadastro ou consulta de um planeta, de forma que a quantidade de aparições em filmes não é persistida no banco somente é apresentada ao usuário, mantendo sempre uma informação atualizada
+
+
+
+* Exemplo de Testes utilizando Postman
+
+- Adicionar um planeta (com nome, clima e terreno) - POST
+
+
+
+
+
