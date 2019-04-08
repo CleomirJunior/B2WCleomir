@@ -2,25 +2,25 @@
 
 Acessos:
 - Adicionar um planeta (com nome, clima e terreno)
-        Método HTTP: POST
-	URI:  http://localhost:8080/api/planetas
-	Body: { "nome": "Alderaan", "clima": "temperate", "terreno": "grasslands, mountains" }
+        Método HTTP: POST<br/>
+	URI:  http://localhost:8080/api/planetas<br/>
+	Body: { "nome": "Alderaan", "clima": "temperate", "terreno": "grasslands, mountains" }<br/>
 
-- Listar planetas
-        Método HTTP: GET
-	URI: http://localhost:8080/api/planetas
+- Listar planetas<br/>
+        Método HTTP: GET<br/>
+	URI: http://localhost:8080/api/planetas<br/>
 
-- Buscar por nome
-        Método HTTP: GET
-	URI: http://localhost:8080/api/planetas/nome/{nome}
+- Buscar por nome<br/>
+        Método HTTP: GET<br/>
+	URI: http://localhost:8080/api/planetas/nome/{nome}<br/>
 
-- Buscar por ID
-        Método HTTP: GET
-	URI: http://localhost:8080/api/planetas/{id}
+- Buscar por ID<br/>
+        Método HTTP: GET<br/>
+	URI: http://localhost:8080/api/planetas/{id}<br/>
 
-- Remover planeta
-        Método HTTP: DELETE
-	URI: http://localhost:8080/api/planetas/{id}
+- Remover planeta<br/>
+        Método HTTP: DELETE<br/>
+	URI: http://localhost:8080/api/planetas/{id}<br/>
 
 Arquitetura utilizanda no desenvolvimento do  Back-End:
 
@@ -37,36 +37,36 @@ O Consumo da API pública do Star Wars foi praticado a cada vez que há uma inte
 <h2>Exemplo de Teste</h2>
 
 
-- Adicionar um planeta (com nome, clima e terreno)
-Método HTTP: POST
-URI Utilizada: http://localhost:8080/api/planetas
+- Adicionar um planeta (com nome, clima e terreno)<br/>
+Método HTTP: POST<br/>
+URI Utilizada: http://localhost:8080/api/planetas<br/>
 
 <img src="/docs/adicionar_planeta.PNG" alt="Teste" style="max-width:100%;">
 <br/>
 <br/>
 <br/>
 
-- Listar planetas
-        Método HTTP: GET
-	URI Utilizada: http://localhost:8080/api/planetas
+- Listar planetas<br/>
+        Método HTTP: GET<br/>
+	URI Utilizada: http://localhost:8080/api/planetas<br/>
 
 <img src="/docs/listar-planetas.PNG" alt="Teste" style="max-width:100%;">
 <br/>
 <br/>
 <br/>
 
-- Buscar por nome
-        Método HTTP: GET
-	URI Utilizada: http://localhost:8080/api/planetas/nome/Yavin IV
+- Buscar por nome<br/>
+        Método HTTP: GET<br/>
+	URI Utilizada: http://localhost:8080/api/planetas/nome/Yavin IV<br/>
 	
 	<img src="/docs/buscar-nome.PNG" alt="Teste" style="max-width:100%;">
 <br/>	
 <br/>	
 <br/>	
 
-- Buscar por ID
-        Método HTTP: GET
-	URI Utilizada: http://localhost:8080/api/planetas/5c9aa4939d50481fe4c0120e
+- Buscar por ID<br/>
+        Método HTTP: GET<br/>
+	URI Utilizada: http://localhost:8080/api/planetas/5c9aa4939d50481fe4c0120e<br/>
 	
 	<img src="/docs/bucar-id.PNG" alt="Teste" style="max-width:100%;">
 <br/>	
