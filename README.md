@@ -40,6 +40,7 @@ O Consumo da API pública do Star Wars foi praticado a cada vez que há uma inte
 - Adicionar um planeta (com nome, clima e terreno)<br/>
 Método HTTP: POST<br/>
 URI Utilizada: http://localhost:8080/api/planetas<br/>
+Status da execução esperado: 201 Created<br/>
 
 <img src="/docs/adicionar_planeta.PNG" alt="Teste" style="max-width:100%;">
 <br/>
@@ -49,6 +50,8 @@ URI Utilizada: http://localhost:8080/api/planetas<br/>
 - Listar planetas<br/>
         Método HTTP: GET<br/>
 	URI Utilizada: http://localhost:8080/api/planetas<br/>
+	Status da execução esperado: 200 OK<br/>
+	
 
 <img src="/docs/listar-planetas.PNG" alt="Teste" style="max-width:100%;">
 <br/>
@@ -58,6 +61,7 @@ URI Utilizada: http://localhost:8080/api/planetas<br/>
 - Buscar por nome<br/>
         Método HTTP: GET<br/>
 	URI Utilizada: http://localhost:8080/api/planetas/nome/Yavin IV<br/>
+	Status da execução esperado: 200 OK<br/>
 	
 	<img src="/docs/buscar-nome.PNG" alt="Teste" style="max-width:100%;">
 <br/>	
@@ -67,6 +71,7 @@ URI Utilizada: http://localhost:8080/api/planetas<br/>
 - Buscar por ID<br/>
         Método HTTP: GET<br/>
 	URI Utilizada: http://localhost:8080/api/planetas/5c9aa4939d50481fe4c0120e<br/>
+	Status da execução esperado: 200 OK<br/>
 	
 	<img src="/docs/bucar-id.PNG" alt="Teste" style="max-width:100%;">
 <br/>	
@@ -76,4 +81,6 @@ URI Utilizada: http://localhost:8080/api/planetas<br/>
 - Remover planeta<br/>
         Método HTTP: DELETE<br/>
 	URI Utilizada: http://localhost:8080/api/planetas/5c9aa3979d50481fe4c0120c<br/>
+	Status da execução esperado: 204 No Content<br/>
+	
 	<img src="/docs/remover-planeta.PNG" alt="Teste" style="max-width:100%;">
