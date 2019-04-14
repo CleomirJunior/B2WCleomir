@@ -93,7 +93,7 @@ Status da execução esperado: 201 Created<br/>
 	URI Utilizada: http://localhost:8080/api/planetas/nome/Yavin IV<br/>
 	Status da execução esperado: 200 OK<br/>
 	
-	<img src="/docs/buscar-nome.PNG" alt="Teste" style="max-width:100%;">
+<img src="/docs/buscar-nome.PNG" alt="Teste" style="max-width:100%;">
 <br/>	
 <br/>	
 <br/>	
@@ -103,7 +103,7 @@ Status da execução esperado: 201 Created<br/>
 	URI Utilizada: http://localhost:8080/api/planetas/5c9aa4939d50481fe4c0120e<br/>
 	Status da execução esperado: 200 OK<br/>
 	
-	<img src="/docs/bucar-id.PNG" alt="Teste" style="max-width:100%;">
+<img src="/docs/bucar-id.PNG" alt="Teste" style="max-width:100%;">
 <br/>	
 <br/>	
 <br/>	
@@ -113,7 +113,7 @@ Status da execução esperado: 201 Created<br/>
 	URI Utilizada: http://localhost:8080/api/planetas/5c9aa3979d50481fe4c0120c<br/>
 	Status da execução esperado: 204 No Content<br/>
 	
-	<img src="/docs/remover-planeta.PNG" alt="Teste" style="max-width:100%;">
+<img src="/docs/remover-planeta.PNG" alt="Teste" style="max-width:100%;">
 <br/>	
 <br/>	
 <br/>	
