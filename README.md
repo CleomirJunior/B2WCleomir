@@ -61,7 +61,6 @@
 	
 	<br/>
 	<h3>Ações</h3>
-	<br/>
 	
 <table>
 <thead>
