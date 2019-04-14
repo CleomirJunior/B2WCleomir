@@ -59,6 +59,10 @@
         Método HTTP: DELETE<br/>
 	URI: http://localhost:8080/api/planetas/{id}<br/>
 	
+	<br/>
+	<h3>Ações</h3>
+	<br/>
+	
 <table>
 <thead>
 <tr>
