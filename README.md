@@ -8,6 +8,13 @@
   <li><a href="#Arquitetura">Arquitetura utilizanda no desenvolvimento do  Back-End:</a></li>
   <li><a href="#Serviços">Serviços disponibilizados</a></li>
   <li><a href="#Evidências">Evidências de Teste</a></li>
+  <ol>
+	<li><a href="#Adicionar">Adicionar um planeta</a></li>
+	<li><a href="#Listar">Listar planetas</a></li>
+	<li><a href="#BuscarNome">Buscar por nome</a></li>
+	<li><a href="#BuscarID">Buscar por ID</a></li>
+	<li><a href="#Remover">Remover planeta</a></li>
+  </ol>
 </ol>
 
 <h3><a name="Objetivo">1. Objetivo do projeto</a></h3>
@@ -28,7 +35,6 @@
 
 <h3><a name="Serviços">3. Serviços disponibilizados</a></h3>
 
-Acessos:
 - Adicionar um planeta (com nome, clima e terreno)
         Método HTTP: POST<br/>
 	URI:  http://localhost:8080/api/planetas<br/>
@@ -53,7 +59,7 @@ Acessos:
 	
 	
 
-<h2><a name="Evidências">Evidências de Teste</a></h2>
+<h2><a name="Evidências">4. Evidências de Teste</a></h2>
 
 
 - Adicionar um planeta (com nome, clima e terreno)<br/>
