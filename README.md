@@ -8,7 +8,7 @@
   <li><a href="#Arquitetura">Arquitetura utilizanda no desenvolvimento do  Back-End:</a></li>
   <li><a href="#Serviços">Serviços disponibilizados</a></li>
   <li><a href="#Evidências">Evidências de Teste</a></li>
-  <ol>
+  <ul>
 	<li><a href="#Adicionar">Adicionar um planeta</a></li>
 	<li><a href="#Listar">Listar planetas</a></li>
 	<li><a href="#BuscarNome">Buscar por nome</a></li>
@@ -17,7 +17,7 @@
 	<li><a href="#AdicionarSemNome">Adicionar um planeta sem Nome</a></li>
 	<li><a href="#AdicionarSemClima">Adicionar um planeta sem Clima</a></li>
 	<li><a href="#AdicionarSemTerreno">Adicionar um planeta sem Terreno</a></li>
-  </ol>
+  </ul>
 </ol>
 
 <h3><a name="Objetivo">1. Objetivo do projeto</a></h3>
