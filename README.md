@@ -1,7 +1,6 @@
 <img src="/docs/Star-Wars-Logo-9.png" alt="Teste" style="max-width:100%;">
 
 <h1 align="center">API REST (Teste B2W)</h1>
-<h3>Desenvolvido por: Cleomir de Sousa Cardoso Junior</h3>
 
 <h2>Índice</h2>
 <ol>
@@ -197,3 +196,5 @@ Mensagem do erro: Terreno não pode ser vazio<br/>
 
 <img src="/docs/inserir_sem_terreno.PNG" alt="Teste" style="max-width:100%;">
 </ul>
+
+<h3>Desenvolvido por: Cleomir de Sousa Cardoso Junior</h3>
