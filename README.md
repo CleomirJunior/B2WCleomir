@@ -1,3 +1,5 @@
+<img src="/docs/Star-Wars-Logo-9.png" alt="Teste" style="max-width:100%;">
+
 <h2>API REST (Teste B2W)</h2>
 
 Acessos:
