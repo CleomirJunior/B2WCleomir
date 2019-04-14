@@ -62,7 +62,8 @@
 <h2><a name="Evidências">4. Evidências de Teste</a></h2>
 
 
-- Adicionar um planeta (com nome, clima e terreno)<br/>
+<ul>
+	<li><a name="Adicionar"> Adicionar um planeta (com nome, clima e terreno)</a></li><br/>
 Método HTTP: POST<br/>
 URI Utilizada: http://localhost:8080/api/planetas<br/>
 Body: { "nome": "Alderaan", "clima": "temperate", "terreno": "grasslands, mountains" }<br/>
@@ -119,7 +120,7 @@ Método HTTP: POST<br/>
 URI Utilizada: http://localhost:8080/api/planetas<br/>
 Body: { "nome": "", "clima": "temperate", "terreno": "grasslands, mountains" }<br/>
 Status da execução esperado: 400 Bad Request<br/>
-Mensagem: Nome não pode ser vazio<br/>
+Mensagem do erro: Nome não pode ser vazio<br/>
 
 <img src="/docs/inserir_sem_nome.PNG" alt="Teste" style="max-width:100%;">
 <br/>	
@@ -131,7 +132,7 @@ Método HTTP: POST<br/>
 URI Utilizada: http://localhost:8080/api/planetas<br/>
 Body: { "nome": "Alderaan", "clima": "", "terreno": "grasslands, mountains" }<br/>
 Status da execução esperado: 400 Bad Request<br/>
-Mensagem: Clima não pode ser vazio<br/>
+Mensagem do erro: Clima não pode ser vazio<br/>
 
 <img src="/docs/inserir_sem_clima.PNG" alt="Teste" style="max-width:100%;">
 <br/>	
@@ -143,6 +144,7 @@ Método HTTP: POST<br/>
 URI Utilizada: http://localhost:8080/api/planetas<br/>
 Body: { "nome": "Alderaan", "clima": "temperate", "terreno": "" }<br/>
 Status da execução esperado: 400 Bad Request<br/>
-Mensagem: Terreno não pode ser vazio<br/>
+Mensagem do erro: Terreno não pode ser vazio<br/>
 
 <img src="/docs/inserir_sem_terreno.PNG" alt="Teste" style="max-width:100%;">
+</ul>
