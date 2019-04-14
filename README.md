@@ -7,8 +7,8 @@
   <li><a href="#Objetivo">Objetivo do projeto</a></li>
 </ol>
 
-<a name="Objetivo">Objetivo do projeto</a>
-Criar uma API rest, que será consumido por um jogo, e armazenará o nome, clima e terreno de um planeta. O mesmo exibirá também a quantidade de aparições de cada planeta nos filmes de Star Wars, que será buscada na API SWAPI.
+<h3><a name="Objetivo">Objetivo do projeto</a></h3>
+<p>Criar uma API rest, que será consumido por um jogo, e armazenará o nome, clima e terreno de um planeta. O mesmo exibirá também a quantidade de aparições de cada planeta nos filmes de Star Wars, que será buscada na API SWAPI.</p>
 
 Acessos:
 - Adicionar um planeta (com nome, clima e terreno)
