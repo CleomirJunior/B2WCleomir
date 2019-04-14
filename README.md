@@ -6,11 +6,24 @@
 <ol>
   <li><a href="#Objetivo">Objetivo do projeto</a></li>
   <li><a href="#Evidências">Evidências de Teste</a></li>
+  <li><a href="#Arquitetura">Arquitetura utilizanda no desenvolvimento do  Back-End:</a></li>
 </ol>
 
 <h3><a name="Objetivo">Objetivo do projeto</a></h3>
 <p>Criar uma API rest, que será consumido por um jogo, e armazenará o nome, clima e terreno de um planeta. O mesmo exibirá também a quantidade de aparições de cada planeta nos filmes de Star Wars, que será buscada na API SWAPI.</p>
 
+<h3><a name="Arquitetura">Arquitetura utilizanda no desenvolvimento do  Back-End:</a></h3>
+
+<ul>
+  <li>Java, Spring Boot e Springframework Data MongoDB</li>
+
+  <li>IDE de desenvolvimento: STS</li>
+
+<li>Foram mantidas as configurações de acordo com o padrão do MongoDB.</li>
+<li>Nome do DataBase configurado no application.properties: starwarsDB</li>
+
+<p>O Consumo da API pública do Star Wars foi praticado a cada vez que há uma interação de cadastro ou consulta de um planeta, de forma que a quantidade de aparições em filmes não é persistida no banco somente é apresentada ao usuário, mantendo sempre uma informação atualizada</p>
+</ul>
 Acessos:
 - Adicionar um planeta (com nome, clima e terreno)
         Método HTTP: POST<br/>
@@ -32,18 +45,6 @@ Acessos:
 - Remover planeta<br/>
         Método HTTP: DELETE<br/>
 	URI: http://localhost:8080/api/planetas/{id}<br/>
-
-Arquitetura utilizanda no desenvolvimento do  Back-End:
-
-Java, Spring Boot e Springframework Data MongoDB
-
-IDE de desenvolvimento: STS
-
-Foram mantidas as configurações de acordo com o padrão do MongoDB.
-Nome do DataBase configurado no application.properties: starwarsDB
-
-O Consumo da API pública do Star Wars foi praticado a cada vez que há uma interação de cadastro ou consulta de um planeta, de forma que a quantidade de aparições em filmes não é persistida no banco somente é apresentada ao usuário, mantendo sempre uma informação atualizada
-
 
 <h2><a name="Evidências">Evidências de Teste</a></h2>
 
