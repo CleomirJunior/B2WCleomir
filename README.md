@@ -6,6 +6,7 @@
 <ol>
   <li><a href="#Objetivo">Objetivo do projeto</a></li>
   <li><a href="#Arquitetura">Arquitetura utilizanda no desenvolvimento do  Back-End:</a></li>
+  <li><a href="#Serviços">Serviços disponibilizados</a></li>
   <li><a href="#Evidências">Evidências de Teste</a></li>
 </ol>
 
@@ -24,6 +25,9 @@
 <br/>
 <p>O Consumo da API pública do Star Wars foi praticado a cada vez que há uma interação de cadastro ou consulta de um planeta, de forma que a quantidade de aparições em filmes não é persistida no banco somente é apresentada ao usuário, mantendo sempre uma informação atualizada</p>
 </ul>
+
+<h3><a name="Serviços">3. Serviços disponibilizados</a></h3>
+
 Acessos:
 - Adicionar um planeta (com nome, clima e terreno)
         Método HTTP: POST<br/>
@@ -45,6 +49,9 @@ Acessos:
 - Remover planeta<br/>
         Método HTTP: DELETE<br/>
 	URI: http://localhost:8080/api/planetas/{id}<br/>
+	
+	
+	
 
 <h2><a name="Evidências">Evidências de Teste</a></h2>
 
