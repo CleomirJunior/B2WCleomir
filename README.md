@@ -14,6 +14,9 @@
 	<li><a href="#BuscarNome">Buscar por nome</a></li>
 	<li><a href="#BuscarID">Buscar por ID</a></li>
 	<li><a href="#Remover">Remover planeta</a></li>
+	<li><a href="#AdicionarSemNome">Adicionar um planeta sem Nome</a></li>
+	<li><a href="#AdicionarSemClima">Adicionar um planeta sem Clima</a></li>
+	<li><a href="#AdicionarSemTerreno">Adicionar um planeta sem Terreno</a></li>
   </ol>
 </ol>
 
@@ -74,7 +77,7 @@ Status da execução esperado: 201 Created<br/>
 <br/>
 <br/>
 
-- Listar planetas<br/>
+<li><a name="Listar">Listar planetas</a></li><br/>
         Método HTTP: GET<br/>
 	URI Utilizada: http://localhost:8080/api/planetas<br/>
 	Status da execução esperado: 200 OK<br/>
@@ -85,7 +88,7 @@ Status da execução esperado: 201 Created<br/>
 <br/>
 <br/>
 
-- Buscar por nome<br/>
+<li><a name="BuscarNome">Buscar por nome</a></li><br/>
         Método HTTP: GET<br/>
 	URI Utilizada: http://localhost:8080/api/planetas/nome/Yavin IV<br/>
 	Status da execução esperado: 200 OK<br/>
@@ -95,7 +98,7 @@ Status da execução esperado: 201 Created<br/>
 <br/>	
 <br/>	
 
-- Buscar por ID<br/>
+<li><a name="BuscarID">Buscar por ID</a></li><br/>
         Método HTTP: GET<br/>
 	URI Utilizada: http://localhost:8080/api/planetas/5c9aa4939d50481fe4c0120e<br/>
 	Status da execução esperado: 200 OK<br/>
@@ -105,7 +108,7 @@ Status da execução esperado: 201 Created<br/>
 <br/>	
 <br/>	
 
-- Remover planeta<br/>
+<li><a name="Remover">Remover planeta</a></li><br/>
         Método HTTP: DELETE<br/>
 	URI Utilizada: http://localhost:8080/api/planetas/5c9aa3979d50481fe4c0120c<br/>
 	Status da execução esperado: 204 No Content<br/>
@@ -115,7 +118,7 @@ Status da execução esperado: 201 Created<br/>
 <br/>	
 <br/>	
 
-- Adicionar um planeta sem Nome (com nome, clima e terreno)<br/>
+<li><a name="AdicionarSemNome">Adicionar um planeta sem Nome (com nome, clima e terreno)</a></li><br/>
 Método HTTP: POST<br/>
 URI Utilizada: http://localhost:8080/api/planetas<br/>
 Body: { "nome": "", "clima": "temperate", "terreno": "grasslands, mountains" }<br/>
@@ -127,7 +130,7 @@ Mensagem do erro: Nome não pode ser vazio<br/>
 <br/>	
 <br/>	
 
-- Adicionar um planeta sem Clima (com nome, clima e terreno)<br/>
+<li><a name="AdicionarSemClima">Adicionar um planeta sem Clima (com nome, clima e terreno)</a></li><br/>
 Método HTTP: POST<br/>
 URI Utilizada: http://localhost:8080/api/planetas<br/>
 Body: { "nome": "Alderaan", "clima": "", "terreno": "grasslands, mountains" }<br/>
@@ -139,7 +142,7 @@ Mensagem do erro: Clima não pode ser vazio<br/>
 <br/>	
 <br/>	
 
-- Adicionar um planeta sem Terreno (com nome, clima e terreno)<br/>
+<li><a name="AdicionarSemTerreno">Adicionar um planeta sem Terreno (com nome, clima e terreno)</a></li><br/>
 Método HTTP: POST<br/>
 URI Utilizada: http://localhost:8080/api/planetas<br/>
 Body: { "nome": "Alderaan", "clima": "temperate", "terreno": "" }<br/>
