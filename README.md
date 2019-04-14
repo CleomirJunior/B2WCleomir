@@ -5,6 +5,7 @@
 <h2>Índice</h2>
 <ol>
   <li><a href="#Objetivo">Objetivo do projeto</a></li>
+  <li><a href="#Evidências">Evidências de Teste</a></li>
 </ol>
 
 <h3><a name="Objetivo">Objetivo do projeto</a></h3>
@@ -44,7 +45,7 @@ Nome do DataBase configurado no application.properties: starwarsDB
 O Consumo da API pública do Star Wars foi praticado a cada vez que há uma interação de cadastro ou consulta de um planeta, de forma que a quantidade de aparições em filmes não é persistida no banco somente é apresentada ao usuário, mantendo sempre uma informação atualizada
 
 
-<h2>Exemplo de Teste</h2>
+<h2><a name="Evidências">Evidências de Teste</a></h2>
 
 
 - Adicionar um planeta (com nome, clima e terreno)<br/>
