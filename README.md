@@ -2,22 +2,13 @@
 
 <h2 align="center">API REST (Teste B2W)</h2>
 
+
 <ol>
-  <li><a href="#Sobre">Sobre o projeto</a></li>
-  <li><a href="#Tecnologias">Tecnologias utilizadas</a></li>
-  <li><a href="#Config">Configurando a API</a></li>
-  <li><a href="#Testes">Efetuando testes</a></li>
-  <li><a href="#Funcionalidades">Funcionalidades</a>
-    <ol>
-      <li><a href="#Insere">Inserindo um planeta</a></li>
-      <li><a href="#Lista">Listando todos os planetas</a></li>
-      <li><a href="#buscaid">Fazendo busca por ID</a></li>
-      <li><a href="#buscanome">Fazendo busca por NOME</a></li>
-      <li><a href="#deleta">Deletando um planeta</a></li>
-    </ol>
-  </li>
-  <li><a href="#final">Considerações finais</a>
-</li></ol>
+  <li><a href="#Objetivo">Objetivo do projeto</a></li>
+</ol>
+
+<a name="Objetivo">Objetivo do projeto</a>
+Criar uma API rest, que será consumido por um jogo, e armazenará o nome, clima e terreno de um planeta. O mesmo exibirá também a quantidade de aparições de cada planeta nos filmes de Star Wars, que será buscada na API SWAPI.
 
 Acessos:
 - Adicionar um planeta (com nome, clima e terreno)
