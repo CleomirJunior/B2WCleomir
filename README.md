@@ -65,6 +65,7 @@
 - Adicionar um planeta (com nome, clima e terreno)<br/>
 Método HTTP: POST<br/>
 URI Utilizada: http://localhost:8080/api/planetas<br/>
+Body: { "nome": "Alderaan", "clima": "temperate", "terreno": "grasslands, mountains" }<br/>
 Status da execução esperado: 201 Created<br/>
 
 <img src="/docs/adicionar_planeta.PNG" alt="Teste" style="max-width:100%;">
@@ -109,3 +110,39 @@ Status da execução esperado: 201 Created<br/>
 	Status da execução esperado: 204 No Content<br/>
 	
 	<img src="/docs/remover-planeta.PNG" alt="Teste" style="max-width:100%;">
+<br/>	
+<br/>	
+<br/>	
+
+- Adicionar um planeta sem Nome (com nome, clima e terreno)<br/>
+Método HTTP: POST<br/>
+URI Utilizada: http://localhost:8080/api/planetas<br/>
+Body: { "nome": "", "clima": "temperate", "terreno": "grasslands, mountains" }<br/>
+Status da execução esperado: 400 Bad Request<br/>
+Mensagem: Nome não pode ser vazio<br/>
+
+<img src="/docs/inserir_sem_nome.PNG" alt="Teste" style="max-width:100%;">
+<br/>	
+<br/>	
+<br/>	
+
+- Adicionar um planeta sem Clima (com nome, clima e terreno)<br/>
+Método HTTP: POST<br/>
+URI Utilizada: http://localhost:8080/api/planetas<br/>
+Body: { "nome": "Alderaan", "clima": "", "terreno": "grasslands, mountains" }<br/>
+Status da execução esperado: 400 Bad Request<br/>
+Mensagem: Clima não pode ser vazio<br/>
+
+<img src="/docs/inserir_sem_clima.PNG" alt="Teste" style="max-width:100%;">
+<br/>	
+<br/>	
+<br/>	
+
+- Adicionar um planeta sem Terreno (com nome, clima e terreno)<br/>
+Método HTTP: POST<br/>
+URI Utilizada: http://localhost:8080/api/planetas<br/>
+Body: { "nome": "Alderaan", "clima": "temperate", "terreno": "" }<br/>
+Status da execução esperado: 400 Bad Request<br/>
+Mensagem: Terreno não pode ser vazio<br/>
+
+<img src="/docs/inserir_sem_terreno.PNG" alt="Teste" style="max-width:100%;">
