@@ -1,6 +1,6 @@
 <img src="/docs/Star-Wars-Logo-9.png" alt="Teste" style="max-width:100%;">
 
-<h2 align="center">API REST (Teste B2W)</h2>
+<title>API REST (Teste B2W)</title>
 
 Acessos:
 - Adicionar um planeta (com nome, clima e terreno)
