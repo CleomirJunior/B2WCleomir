@@ -59,7 +59,30 @@
         Método HTTP: DELETE<br/>
 	URI: http://localhost:8080/api/planetas/{id}<br/>
 	
-	
+<table>
+<thead>
+<tr>
+<th align="left">Caminho</th>
+<th align="center">Método</th>
+<th align="center">Status</th>
+<th align="left">Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><code>/api/planetas/</code></td>
+<td align="center"><code>POST</code></td>
+<td align="center">201</td>
+<td align="left">Criar Planeta</td>
+</tr>
+<tr>
+<td align="left"><code>/api/planetas/</code></td>
+<td align="center"><code>GET</code></td>
+<td align="center">200</td>
+<td align="left">Listar todos os planetas</td>
+</tr>
+</tbody>
+</table>
 	
 
 <h2><a name="Evidências">4. Evidências de Teste</a></h2>
