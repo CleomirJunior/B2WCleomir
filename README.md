@@ -59,7 +59,6 @@
         Método HTTP: DELETE<br/>
 	URI: http://localhost:8080/api/planetas/{id}<br/>
 	
-	<br/>
 	<h3>Ações</h3>
 	
 <table>
@@ -104,6 +103,8 @@
 </tr>
 </tbody>
 </table>
+
+<br/>
 	
 
 <h2><a name="Evidências">4. Evidências de Teste</a></h2>
