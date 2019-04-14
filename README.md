@@ -18,6 +18,7 @@
 	<li><a href="#AdicionarSemClima">Adicionar um planeta sem Clima</a></li>
 	<li><a href="#AdicionarSemTerreno">Adicionar um planeta sem Terreno</a></li>
   </ul>
+  <li><a href="#Desenvolvedor">Desenvolvedor</a></li>
 </ol>
 
 <h3><a name="Objetivo">1. Objetivo do projeto</a></h3>
@@ -197,4 +198,5 @@ Mensagem do erro: Terreno não pode ser vazio<br/>
 <img src="/docs/inserir_sem_terreno.PNG" alt="Teste" style="max-width:100%;">
 </ul>
 
-<h3>Desenvolvido por: Cleomir de Sousa Cardoso Junior</h3>
+<h2><a name="Desenvolvedor">5. Desenvolvedor</a></h2>
+<h3>Cleomir de Sousa Cardoso Junior</h3>
