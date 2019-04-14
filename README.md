@@ -21,7 +21,7 @@
 
 <li>Foram mantidas as configurações de acordo com o padrão do MongoDB.</li>
 <li>Nome do DataBase configurado no application.properties: starwarsDB</li>
-
+<br/>
 <p>O Consumo da API pública do Star Wars foi praticado a cada vez que há uma interação de cadastro ou consulta de um planeta, de forma que a quantidade de aparições em filmes não é persistida no banco somente é apresentada ao usuário, mantendo sempre uma informação atualizada</p>
 </ul>
 Acessos:
