@@ -5,14 +5,14 @@
 <h2>Índice</h2>
 <ol>
   <li><a href="#Objetivo">Objetivo do projeto</a></li>
-  <li><a href="#Evidências">Evidências de Teste</a></li>
   <li><a href="#Arquitetura">Arquitetura utilizanda no desenvolvimento do  Back-End:</a></li>
+  <li><a href="#Evidências">Evidências de Teste</a></li>
 </ol>
 
-<h3><a name="Objetivo">Objetivo do projeto</a></h3>
+<h3><a name="Objetivo">1. Objetivo do projeto</a></h3>
 <p>Criar uma API rest, que será consumido por um jogo, e armazenará o nome, clima e terreno de um planeta. O mesmo exibirá também a quantidade de aparições de cada planeta nos filmes de Star Wars, que será buscada na API SWAPI.</p>
 
-<h3><a name="Arquitetura">Arquitetura utilizanda no desenvolvimento do  Back-End:</a></h3>
+<h3><a name="Arquitetura">2. Arquitetura utilizanda no desenvolvimento do  Back-End:</a></h3>
 
 <ul>
   <li>Java, Spring Boot e Springframework Data MongoDB</li>
