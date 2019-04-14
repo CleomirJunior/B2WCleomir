@@ -73,13 +73,31 @@
 <td align="left"><code>/api/planetas/</code></td>
 <td align="center"><code>POST</code></td>
 <td align="center">201</td>
-<td align="left">Criar Planeta</td>
+<td align="left">Adicionar um planeta</td>
 </tr>
 <tr>
 <td align="left"><code>/api/planetas/</code></td>
 <td align="center"><code>GET</code></td>
 <td align="center">200</td>
-<td align="left">Listar todos os planetas</td>
+<td align="left">Listar planetas</td>
+</tr>
+<tr>
+<td align="left"><code>/api/planetas/nome/:nome</code></td>
+<td align="center"><code>GET</code></td>
+<td align="center">200</td>
+<td align="left">Buscar por nome</td>
+</tr>
+<tr>
+<td align="left"><code>/api/planetas/:id</code></td>
+<td align="center"><code>GET</code></td>
+<td align="center">200</td>
+<td align="left">Buscar por ID</td>
+</tr>
+<tr>
+<td align="left"><code>/api/planetas/:id</code></td>
+<td align="center"><code>DELETE</code></td>
+<td align="center">204</td>
+<td align="left">Remover planeta</td>
 </tr>
 </tbody>
 </table>
